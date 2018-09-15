@@ -28,7 +28,7 @@ public class TheRiddler {
 
 		// 6. Add some more riddles
 		String riddle2 = JOptionPane.showInputDialog("You are in a cold cube room, how do you get warmer?");
-		if (riddle2.equals("go into the corner, is 90 degrees")) {
+		if (riddle2.equals("go into the corner, it is 90 degrees")) {
 			JOptionPane.showMessageDialog(null, "Correct!");
 		} else {
 			JOptionPane.showMessageDialog(null, "Wrong!");
